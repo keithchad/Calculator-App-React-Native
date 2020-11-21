@@ -28,7 +28,7 @@ export default class App extends Component {
     for(let i = 0; i < 4; i++) {
         ops.push(
           <TouchableOpacity style={styles.button}>
-            <Text style={[styles.buttonText, styles.white]}>{operations[i][j]}</Text>
+            <Text style={[styles.buttonText, styles.white]}>{operations[i]}</Text>
           </TouchableOpacity>
         )
     
